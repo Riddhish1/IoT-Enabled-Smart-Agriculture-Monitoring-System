@@ -1,0 +1,264 @@
+/*
+ * ============================================================
+ * IoT-Enabled Smart Agriculture Monitoring System
+ * Author  : Anupam Santra
+ * Board   : ESP32 (use on Wokwi: https://wokwi.com/esp32)
+ * Version : 1.0
+ * ============================================================
+ *
+ * SENSORS USED:
+ *   - Soil Moisture Sensor  → Analog pin 34 (Potentiometer on Wokwi)
+ *   - DHT22 Sensor          → Digital pin 15 (Temp + Humidity)
+ *   - LDR (Light Sensor)    → Analog pin 35
+ *   - Water Level Sensor    → Analog pin 32 (Potentiometer on Wokwi)
+ *   - Rain Sensor           → Analog pin 33 (Potentiometer on Wokwi)
+ *   - Water Pump (Relay)    → Digital pin 26 (LED simulates pump)
+ *   - Alert LED (Red)       → Digital pin 27
+ *
+ * HOW TO USE ON WOKWI:
+ *   1. Go to https://wokwi.com/esp32
+ *   2. Paste this code in the code editor
+ *   3. Paste diagram.json in the diagram editor
+ *   4. Click the green Play button
+ *   5. Drag potentiometer sliders to simulate sensor values
+ * ============================================================
+ */
+
+// Build in demo mode by default to avoid external sensor library dependency.
+#define DEMO_MODE                 true
+
+#if !DEMO_MODE
+#include "DHT.h"
+#endif
+
+// ─── PIN DEFINITIONS ──────────────────────────────────────────
+#define SOIL_MOISTURE_PIN   34    // Analog: Potentiometer simulates soil
+#define LDR_PIN             35    // Analog: LDR simulates light intensity
+#define WATER_LEVEL_PIN     32    // Analog: Potentiometer simulates water tank
+#define RAIN_SENSOR_PIN     33    // Analog: Potentiometer simulates rain
+#define DHT_PIN             15    // Digital: DHT22 temp+humidity sensor
+#define PUMP_PIN            26    // Digital OUTPUT: LED = water pump
+#define ALERT_LED_PIN       27    // Digital OUTPUT: LED = alert indicator
+
+#define DHT_TYPE DHT22
+
+// ─── THRESHOLD VALUES ─────────────────────────────────────────
+#define SOIL_DRY_THRESHOLD        30    // Below this % → pump ON
+#define SOIL_WET_THRESHOLD        70    // Above this % → pump OFF
+#define TEMP_HIGH_THRESHOLD       35.0  // Above this °C → alert
+#define HUMIDITY_LOW_THRESHOLD    30.0  // Below this % → alert
+#define WATER_LEVEL_LOW           20    // Below this % → alert
+#define LIGHT_LOW_THRESHOLD       20    // Below this % → low light alert
+#define RAIN_THRESHOLD            60    // Above this % → raining, skip pump
+
+struct ScenarioProfile {
+  const char* name;
+  int soilMin;
+  int soilMax;
+  float tempMin;
+  float tempMax;
+  float humidityMin;
+  float humidityMax;
+  int lightMin;
+  int lightMax;
+  int waterMin;
+  int waterMax;
+  int rainMin;
+  int rainMax;
+};
+
+const ScenarioProfile SCENARIOS[] = {
+  {"Normal Day", 45, 65, 24, 30, 50, 70, 60, 90, 60, 90, 0, 10},
+  {"Dry Soil - Pump Needed", 5, 25, 26, 32, 35, 55, 55, 80, 50, 80, 0, 5},
+  {"High Temperature Alert", 20, 40, 36, 42, 20, 35, 80, 100, 40, 70, 0, 5},
+  {"Rainy Day - Pump Override", 70, 95, 18, 24, 80, 98, 10, 30, 80, 100, 65, 95},
+  {"Low Water Tank", 10, 30, 25, 31, 40, 60, 50, 75, 5, 18, 0, 5},
+  {"Night - Low Light", 40, 60, 16, 22, 55, 75, 0, 15, 50, 80, 0, 10},
+  {"Seedling Care", 55, 70, 20, 26, 60, 80, 45, 70, 70, 95, 0, 5},
+  {"Heatwave Drought", 5, 20, 38, 45, 15, 28, 85, 100, 35, 65, 0, 5},
+  {"Storm Incoming", 25, 45, 22, 29, 70, 90, 15, 40, 45, 75, 55, 75},
+  {"Frost Risk", 45, 65, 0, 4.5, 55, 75, 20, 50, 60, 90, 0, 10},
+  {"Irrigation Recovery", 30, 45, 24, 32, 35, 55, 55, 85, 25, 45, 0, 8},
+};
+const int SCENARIO_COUNT = sizeof(SCENARIOS) / sizeof(SCENARIOS[0]);
+
+// ─── OBJECTS ──────────────────────────────────────────────────
+#if !DEMO_MODE
+DHT dht(DHT_PIN, DHT_TYPE);
+#endif
+
+// ─── GLOBAL STATE ─────────────────────────────────────────────
+bool pumpState    = false;
+bool alertState   = false;
+int  readingCount = 0;
+int  scenarioIndex = -1;
+
+// ─── SETUP ────────────────────────────────────────────────────
+void setup() {
+  Serial.begin(115200);
+  delay(500);
+
+  pinMode(PUMP_PIN,      OUTPUT);
+  pinMode(ALERT_LED_PIN, OUTPUT);
+  digitalWrite(PUMP_PIN,      LOW);
+  digitalWrite(ALERT_LED_PIN, LOW);
+
+#if !DEMO_MODE
+  dht.begin();
+#endif
+  randomSeed(analogRead(0));
+
+  Serial.println("============================================");
+  Serial.println("  IoT Smart Agriculture Monitoring System  ");
+  Serial.println("  Author: Anupam Santra                    ");
+  Serial.println("============================================");
+  Serial.println("System Initialized. Starting sensor loop...");
+  Serial.print("Mode: ");
+  Serial.println(DEMO_MODE ? "Automatic scenario demo" : "Live Wokwi sensor controls");
+  Serial.println();
+  delay(1000);
+}
+
+// ─── HELPER: Map analog 0–4095 to percentage 0–100 ────────────
+int toPercent(int rawValue) {
+  return map(rawValue, 0, 4095, 0, 100);
+}
+
+float randomFloat(float minimum, float maximum) {
+  return minimum + (random(0, 1001) / 1000.0) * (maximum - minimum);
+}
+
+// ─── HELPER: Print separator line ─────────────────────────────
+void printSeparator() {
+  Serial.println("--------------------------------------------");
+}
+
+// ─── MAIN LOOP ────────────────────────────────────────────────
+void loop() {
+  readingCount++;
+
+  if (readingCount % 8 == 1) {
+    scenarioIndex = (scenarioIndex + 1) % SCENARIO_COUNT;
+  }
+
+  // ── Read sensors ──────────────────────────────────────────
+  int soilMoisture;
+  int lightIntensity;
+  int waterLevel;
+  int rainLevel;
+  float temperature;
+  float humidity;
+
+  if (DEMO_MODE) {
+    const ScenarioProfile& scenario = SCENARIOS[scenarioIndex];
+    soilMoisture = random(scenario.soilMin, scenario.soilMax + 1);
+    lightIntensity = random(scenario.lightMin, scenario.lightMax + 1);
+    waterLevel = random(scenario.waterMin, scenario.waterMax + 1);
+    rainLevel = random(scenario.rainMin, scenario.rainMax + 1);
+    temperature = randomFloat(scenario.tempMin, scenario.tempMax);
+    humidity = randomFloat(scenario.humidityMin, scenario.humidityMax);
+  } else {
+    int rawSoil = analogRead(SOIL_MOISTURE_PIN);
+    int rawLight = analogRead(LDR_PIN);
+    int rawWater = analogRead(WATER_LEVEL_PIN);
+    int rawRain = analogRead(RAIN_SENSOR_PIN);
+    soilMoisture = toPercent(rawSoil);
+    lightIntensity = toPercent(rawLight);
+    waterLevel = toPercent(rawWater);
+    rainLevel = toPercent(rawRain);
+  #if !DEMO_MODE
+    temperature = dht.readTemperature();
+    humidity = dht.readHumidity();
+  #endif
+  }
+
+  // ── Handle DHT read failure ───────────────────────────────
+  if (!DEMO_MODE && (isnan(temperature) || isnan(humidity))) {
+    Serial.println("[ERROR] DHT22 read failed. Retrying...");
+    delay(2000);
+    return;
+  }
+
+  // ── Print readings to Serial Monitor ─────────────────────
+  printSeparator();
+  Serial.print("Reading #");
+  Serial.println(readingCount);
+  if (DEMO_MODE) {
+    Serial.print("Scenario       : ");
+    Serial.println(SCENARIOS[scenarioIndex].name);
+  }
+  printSeparator();
+  Serial.print("Soil Moisture  : "); Serial.print(soilMoisture);   Serial.println(" %");
+  Serial.print("Temperature    : "); Serial.print(temperature, 1); Serial.println(" °C");
+  Serial.print("Humidity       : "); Serial.print(humidity, 1);    Serial.println(" %");
+  Serial.print("Light Intensity: "); Serial.print(lightIntensity); Serial.println(" %");
+  Serial.print("Water Level    : "); Serial.print(waterLevel);     Serial.println(" %");
+  Serial.print("Rain Level     : "); Serial.print(rainLevel);      Serial.println(" %");
+  printSeparator();
+
+  // ── Reset alert state each loop ───────────────────────────
+  alertState = false;
+
+  // ── ALERT: High Temperature ───────────────────────────────
+  if (temperature > TEMP_HIGH_THRESHOLD) {
+    Serial.println("[ALERT] HIGH TEMPERATURE DETECTED!");
+    alertState = true;
+  }
+
+  if (temperature < 5.0) {
+    Serial.println("[ALERT] FROST RISK DETECTED!");
+    alertState = true;
+  }
+
+  // ── ALERT: Low Humidity ───────────────────────────────────
+  if (humidity < HUMIDITY_LOW_THRESHOLD) {
+    Serial.println("[ALERT] LOW HUMIDITY DETECTED!");
+    alertState = true;
+  }
+
+  // ── ALERT: Low Water Level ────────────────────────────────
+  if (waterLevel < WATER_LEVEL_LOW) {
+    Serial.println("[ALERT] WATER TANK LEVEL CRITICAL!");
+    alertState = true;
+  }
+
+  // ── ALERT: Low Light ─────────────────────────────────────
+  if (lightIntensity < LIGHT_LOW_THRESHOLD) {
+    Serial.println("[ALERT] LOW LIGHT INTENSITY!");
+    alertState = true;
+  }
+
+  // ── PUMP LOGIC ────────────────────────────────────────────
+  // If it's raining, skip irrigation regardless
+  if (rainLevel > RAIN_THRESHOLD) {
+    Serial.println("[INFO] Rain detected. Pump override OFF.");
+    pumpState = false;
+  }
+  // If soil is dry and water tank has enough water → pump ON
+  else if (soilMoisture < SOIL_DRY_THRESHOLD && waterLevel >= WATER_LEVEL_LOW) {
+    pumpState = true;
+    Serial.println("[PUMP] Water pump turned ON  → Soil is DRY");
+  }
+  // If soil is wet enough → pump OFF
+  else if (soilMoisture >= SOIL_WET_THRESHOLD) {
+    pumpState = false;
+    Serial.println("[PUMP] Water pump turned OFF → Soil is WET");
+  }
+  // Water tank critically low → cannot run pump
+  else if (waterLevel < WATER_LEVEL_LOW) {
+    pumpState = false;
+    Serial.println("[PUMP] Pump DISABLED → Water tank too low!");
+  }
+
+  // ── Write pump and alert LED ──────────────────────────────
+  digitalWrite(PUMP_PIN,      pumpState  ? HIGH : LOW);
+  digitalWrite(ALERT_LED_PIN, alertState ? HIGH : LOW);
+
+  // ── Status summary ────────────────────────────────────────
+  Serial.print("Pump Status    : "); Serial.println(pumpState  ? "ON  [ACTIVE]" : "OFF [IDLE]");
+  Serial.print("Alert Status   : "); Serial.println(alertState ? "ALERT ACTIVE" : "All Normal");
+  Serial.println();
+
+  // ── Wait 3 seconds before next reading ───────────────────
+  delay(3000);
+}

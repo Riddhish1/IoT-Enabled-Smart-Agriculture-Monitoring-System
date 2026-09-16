@@ -1,0 +1,8 @@
+# IoT Smart Agriculture Monitoring System
+# Author: Anupam Santra
+# Install with: pip install -r requirements.txt
+
+dash==2.17.1
+plotly==5.22.0
+pandas==2.2.2
+paho-mqtt==2.1.0

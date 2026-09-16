@@ -1,0 +1,106 @@
+{
+  "version": 1,
+  "author": "Anupam Santra",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "wokwi-esp32-devkit-v1",
+      "id": "esp",
+      "top": 0,
+      "left": 0,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-dht22",
+      "id": "dht1",
+      "top": -80,
+      "left": 220,
+      "attrs": { "temperature": "28", "humidity": "55" }
+    },
+    {
+      "type": "wokwi-potentiometer",
+      "id": "pot1",
+      "top": 80,
+      "left": 260,
+      "attrs": { "label": "Soil Moisture", "value": "0.25" }
+    },
+    {
+      "type": "wokwi-potentiometer",
+      "id": "pot2",
+      "top": 180,
+      "left": 260,
+      "attrs": { "label": "Water Level", "value": "0.75" }
+    },
+    {
+      "type": "wokwi-potentiometer",
+      "id": "pot3",
+      "top": 280,
+      "left": 260,
+      "attrs": { "label": "Rain Sensor", "value": "0.1" }
+    },
+    {
+      "type": "wokwi-photoresistor-sensor",
+      "id": "ldr1",
+      "top": -80,
+      "left": 380,
+      "attrs": { "lux": "500" }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led1",
+      "top": 380,
+      "left": 220,
+      "attrs": { "color": "blue", "label": "Water Pump" }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led2",
+      "top": 380,
+      "left": 300,
+      "attrs": { "color": "red", "label": "Alert LED" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r1",
+      "top": 360,
+      "left": 200,
+      "attrs": { "value": "220" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r2",
+      "top": 360,
+      "left": 280,
+      "attrs": { "value": "220" }
+    }
+  ],
+  "connections": [
+    ["esp:3V3",   "dht1:VCC",  "red",    []],
+    ["esp:GND.1", "dht1:GND",  "black",  []],
+    ["esp:15",    "dht1:SDA",  "green",  []],
+
+    ["esp:3V3",   "pot1:VCC",  "red",    []],
+    ["esp:GND.1", "pot1:GND",  "black",  []],
+    ["esp:34",    "pot1:SIG",  "yellow", []],
+
+    ["esp:3V3",   "pot2:VCC",  "red",    []],
+    ["esp:GND.1", "pot2:GND",  "black",  []],
+    ["esp:32",    "pot2:SIG",  "orange", []],
+
+    ["esp:3V3",   "pot3:VCC",  "red",    []],
+    ["esp:GND.1", "pot3:GND",  "black",  []],
+    ["esp:33",    "pot3:SIG",  "purple", []],
+
+    ["esp:3V3",   "ldr1:VCC",  "red",    []],
+    ["esp:GND.1", "ldr1:GND",  "black",  []],
+    ["esp:35",    "ldr1:AO",   "cyan",   []],
+
+    ["esp:26",    "r1:1",      "blue",   []],
+    ["r1:2",      "led1:A",    "blue",   []],
+    ["esp:GND.2", "led1:C",    "black",  []],
+
+    ["esp:27",    "r2:1",      "red",    []],
+    ["r2:2",      "led2:A",    "red",    []],
+    ["esp:GND.2", "led2:C",    "black",  []]
+  ]
+}

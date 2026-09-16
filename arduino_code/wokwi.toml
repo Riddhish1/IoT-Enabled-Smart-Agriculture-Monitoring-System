@@ -1,0 +1,7 @@
+[wokwi]
+version = 1
+
+# Update these paths to match your local build output if needed.
+# Common ESP32 output names are shown below.
+firmware = "build/arduino_code.ino.bin"
+elf = "build/arduino_code.ino.elf"

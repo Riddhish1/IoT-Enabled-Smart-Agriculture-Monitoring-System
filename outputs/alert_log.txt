@@ -1,0 +1,1327 @@
+
+==================================================
+Session Started: 2026-06-14 12:01:40
+==================================================
+
+[2026-06-14 12:01:40] Reading #0001 | Scenario: Dry Soil — Pump Needed
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 12:01:40] Reading #0002 | Scenario: Dry Soil — Pump Needed
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 12:01:40] Reading #0003 | Scenario: Dry Soil — Pump Needed
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 12:01:40] Reading #0004 | Scenario: Dry Soil — Pump Needed
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 12:01:40] Reading #0005 | Scenario: Dry Soil — Pump Needed
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 12:01:40] Reading #0006 | Scenario: Dry Soil — Pump Needed
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 12:01:40] Reading #0007 | Scenario: Dry Soil — Pump Needed
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 12:01:40] Reading #0008 | Scenario: Dry Soil — Pump Needed
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 12:01:40] Reading #0009 | Scenario: High Temperature Alert
+  ALERT : HIGH_TEMPERATURE
+  ALERT : LOW_HUMIDITY
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 12:01:40] Reading #0010 | Scenario: High Temperature Alert
+  ALERT : HIGH_TEMPERATURE
+  ────────────────────────────────────────
+
+[2026-06-14 12:01:40] Reading #0011 | Scenario: High Temperature Alert
+  ALERT : HIGH_TEMPERATURE
+  ALERT : LOW_HUMIDITY
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 12:01:40] Reading #0012 | Scenario: High Temperature Alert
+  ALERT : HIGH_TEMPERATURE
+  ALERT : LOW_HUMIDITY
+  ────────────────────────────────────────
+
+[2026-06-14 12:01:40] Reading #0013 | Scenario: High Temperature Alert
+  ALERT : HIGH_TEMPERATURE
+  ALERT : LOW_HUMIDITY
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 12:01:40] Reading #0014 | Scenario: High Temperature Alert
+  ALERT : HIGH_TEMPERATURE
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 12:01:40] Reading #0015 | Scenario: High Temperature Alert
+  ALERT : HIGH_TEMPERATURE
+  ────────────────────────────────────────
+
+[2026-06-14 12:01:40] Reading #0016 | Scenario: High Temperature Alert
+  ALERT : HIGH_TEMPERATURE
+  ALERT : LOW_HUMIDITY
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 12:01:40] Reading #0017 | Scenario: Rainy Day — Pump Override
+  ALERT : LOW_LIGHT
+  ────────────────────────────────────────
+
+[2026-06-14 12:01:40] Reading #0020 | Scenario: Rainy Day — Pump Override
+  ALERT : LOW_LIGHT
+  ────────────────────────────────────────
+
+[2026-06-14 12:01:40] Reading #0024 | Scenario: Rainy Day — Pump Override
+  ALERT : LOW_LIGHT
+  ────────────────────────────────────────
+
+[2026-06-14 12:01:40] Reading #0025 | Scenario: Low Water Tank
+  ALERT : LOW_WATER_TANK
+  ALERT : DRY_SOIL
+  ────────────────────────────────────────
+
+[2026-06-14 12:01:40] Reading #0026 | Scenario: Low Water Tank
+  ALERT : LOW_WATER_TANK
+  ALERT : DRY_SOIL
+  ────────────────────────────────────────
+
+[2026-06-14 12:01:40] Reading #0027 | Scenario: Low Water Tank
+  ALERT : LOW_WATER_TANK
+  ALERT : DRY_SOIL
+  ────────────────────────────────────────
+
+[2026-06-14 12:01:40] Reading #0028 | Scenario: Low Water Tank
+  ALERT : LOW_WATER_TANK
+  ALERT : DRY_SOIL
+  ────────────────────────────────────────
+
+[2026-06-14 12:01:40] Reading #0029 | Scenario: Low Water Tank
+  ALERT : LOW_WATER_TANK
+  ALERT : DRY_SOIL
+  ────────────────────────────────────────
+
+[2026-06-14 12:01:40] Reading #0030 | Scenario: Low Water Tank
+  ALERT : LOW_WATER_TANK
+  ALERT : DRY_SOIL
+  ────────────────────────────────────────
+
+==================================================
+Dashboard Session: 2026-06-14 17:36:17
+==================================================
+
+[2026-06-14 17:36:17] Reading #0001 | Scenario: Dry Soil � Pump Needed
+  ALERT : DRY_SOIL
+  PUMP  : ON � Soil is DRY � pump activated
+
+==================================================
+Dashboard Session: 2026-06-14 17:41:17
+==================================================
+
+[2026-06-14 17:41:17] Reading #0001 | Scenario: Dry Soil � Pump Needed
+  ALERT : DRY_SOIL
+  PUMP  : ON � Soil is DRY � pump activated
+
+==================================================
+Dashboard Session: 2026-06-14 17:46:36
+==================================================
+
+[2026-06-14 17:46:36] Reading #0001 | Scenario: Dry Soil — Pump Needed
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 17:46:38] Reading #0002 | Scenario: Dry Soil — Pump Needed
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 17:46:40] Reading #0003 | Scenario: Dry Soil — Pump Needed
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 17:46:42] Reading #0004 | Scenario: Dry Soil — Pump Needed
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 17:46:44] Reading #0005 | Scenario: Dry Soil — Pump Needed
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 17:46:46] Reading #0006 | Scenario: Dry Soil — Pump Needed
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 17:46:48] Reading #0007 | Scenario: Dry Soil — Pump Needed
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 17:46:50] Reading #0008 | Scenario: Dry Soil — Pump Needed
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 17:46:52] Reading #0009 | Scenario: High Temperature Alert
+  ALERT : HIGH_TEMPERATURE
+  ────────────────────────────────────────
+
+[2026-06-14 17:46:54] Reading #0010 | Scenario: High Temperature Alert
+  ALERT : HIGH_TEMPERATURE
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 17:46:56] Reading #0011 | Scenario: High Temperature Alert
+  ALERT : HIGH_TEMPERATURE
+  ALERT : LOW_HUMIDITY
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 17:46:58] Reading #0012 | Scenario: High Temperature Alert
+  ALERT : HIGH_TEMPERATURE
+  ────────────────────────────────────────
+
+[2026-06-14 17:47:00] Reading #0013 | Scenario: High Temperature Alert
+  ALERT : HIGH_TEMPERATURE
+  ALERT : LOW_HUMIDITY
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 17:47:02] Reading #0014 | Scenario: High Temperature Alert
+  ALERT : HIGH_TEMPERATURE
+  ALERT : LOW_HUMIDITY
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 17:47:04] Reading #0015 | Scenario: High Temperature Alert
+  ALERT : HIGH_TEMPERATURE
+  ALERT : LOW_HUMIDITY
+  ────────────────────────────────────────
+
+[2026-06-14 17:47:06] Reading #0016 | Scenario: High Temperature Alert
+  ALERT : HIGH_TEMPERATURE
+  ALERT : LOW_HUMIDITY
+  ────────────────────────────────────────
+
+[2026-06-14 17:47:12] Reading #0019 | Scenario: Rainy Day — Pump Override
+  ALERT : LOW_LIGHT
+  ────────────────────────────────────────
+
+[2026-06-14 17:47:14] Reading #0020 | Scenario: Rainy Day — Pump Override
+  ALERT : LOW_LIGHT
+  ────────────────────────────────────────
+
+[2026-06-14 17:47:24] Reading #0025 | Scenario: Low Water Tank
+  ALERT : LOW_WATER_TANK
+  ALERT : DRY_SOIL
+  ────────────────────────────────────────
+
+[2026-06-14 17:47:26] Reading #0026 | Scenario: Low Water Tank
+  ALERT : LOW_WATER_TANK
+  ALERT : DRY_SOIL
+  ────────────────────────────────────────
+
+[2026-06-14 17:47:28] Reading #0027 | Scenario: Low Water Tank
+  ALERT : LOW_WATER_TANK
+  ALERT : DRY_SOIL
+  ────────────────────────────────────────
+
+[2026-06-14 17:47:30] Reading #0028 | Scenario: Low Water Tank
+  ALERT : LOW_WATER_TANK
+  ALERT : DRY_SOIL
+  ────────────────────────────────────────
+
+[2026-06-14 17:47:32] Reading #0029 | Scenario: Low Water Tank
+  ALERT : LOW_WATER_TANK
+  ALERT : DRY_SOIL
+  ────────────────────────────────────────
+
+[2026-06-14 17:47:34] Reading #0030 | Scenario: Low Water Tank
+  ALERT : LOW_WATER_TANK
+  ALERT : DRY_SOIL
+  ────────────────────────────────────────
+
+[2026-06-14 17:47:36] Reading #0031 | Scenario: Low Water Tank
+  ALERT : LOW_WATER_TANK
+  ALERT : DRY_SOIL
+  ────────────────────────────────────────
+
+[2026-06-14 17:47:38] Reading #0032 | Scenario: Low Water Tank
+  ALERT : LOW_WATER_TANK
+  ALERT : DRY_SOIL
+  ────────────────────────────────────────
+
+[2026-06-14 17:47:40] Reading #0033 | Scenario: Night / Low Light
+  ALERT : LOW_LIGHT
+  ────────────────────────────────────────
+
+[2026-06-14 17:47:42] Reading #0034 | Scenario: Night / Low Light
+  ALERT : LOW_LIGHT
+  ────────────────────────────────────────
+
+[2026-06-14 17:47:44] Reading #0035 | Scenario: Night / Low Light
+  ALERT : LOW_LIGHT
+  ────────────────────────────────────────
+
+[2026-06-14 17:47:46] Reading #0036 | Scenario: Night / Low Light
+  ALERT : LOW_LIGHT
+  ────────────────────────────────────────
+
+[2026-06-14 17:47:48] Reading #0037 | Scenario: Night / Low Light
+  ALERT : LOW_LIGHT
+  ────────────────────────────────────────
+
+[2026-06-14 17:47:50] Reading #0038 | Scenario: Night / Low Light
+  ALERT : LOW_LIGHT
+  ────────────────────────────────────────
+
+[2026-06-14 17:47:52] Reading #0039 | Scenario: Night / Low Light
+  ALERT : LOW_LIGHT
+  ────────────────────────────────────────
+
+[2026-06-14 17:47:54] Reading #0040 | Scenario: Night / Low Light
+  ALERT : LOW_LIGHT
+  ────────────────────────────────────────
+
+[2026-06-14 17:48:12] Reading #0049 | Scenario: Dry Soil — Pump Needed
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 17:48:14] Reading #0050 | Scenario: Dry Soil — Pump Needed
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 17:48:16] Reading #0051 | Scenario: Dry Soil — Pump Needed
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 17:48:18] Reading #0052 | Scenario: Dry Soil — Pump Needed
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 17:48:20] Reading #0053 | Scenario: Dry Soil — Pump Needed
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 17:48:23] Reading #0054 | Scenario: Dry Soil — Pump Needed
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 17:48:25] Reading #0055 | Scenario: Dry Soil — Pump Needed
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 17:48:27] Reading #0056 | Scenario: Dry Soil — Pump Needed
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 17:48:29] Reading #0057 | Scenario: High Temperature Alert
+  ALERT : HIGH_TEMPERATURE
+  ────────────────────────────────────────
+
+[2026-06-14 17:48:31] Reading #0058 | Scenario: High Temperature Alert
+  ALERT : HIGH_TEMPERATURE
+  ────────────────────────────────────────
+
+[2026-06-14 17:48:33] Reading #0059 | Scenario: High Temperature Alert
+  ALERT : HIGH_TEMPERATURE
+  ALERT : LOW_HUMIDITY
+  ────────────────────────────────────────
+
+[2026-06-14 17:48:35] Reading #0060 | Scenario: High Temperature Alert
+  ALERT : HIGH_TEMPERATURE
+  ALERT : LOW_HUMIDITY
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 17:48:37] Reading #0061 | Scenario: High Temperature Alert
+  ALERT : HIGH_TEMPERATURE
+  ALERT : LOW_HUMIDITY
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 17:48:39] Reading #0062 | Scenario: High Temperature Alert
+  ALERT : HIGH_TEMPERATURE
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 17:48:41] Reading #0063 | Scenario: High Temperature Alert
+  ALERT : HIGH_TEMPERATURE
+  ALERT : LOW_HUMIDITY
+  ────────────────────────────────────────
+
+[2026-06-14 17:48:43] Reading #0064 | Scenario: High Temperature Alert
+  ALERT : HIGH_TEMPERATURE
+  ALERT : LOW_HUMIDITY
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 17:48:47] Reading #0066 | Scenario: Rainy Day — Pump Override
+  ALERT : LOW_LIGHT
+  ────────────────────────────────────────
+
+[2026-06-14 17:48:49] Reading #0067 | Scenario: Rainy Day — Pump Override
+  ALERT : LOW_LIGHT
+  ────────────────────────────────────────
+
+[2026-06-14 17:48:51] Reading #0068 | Scenario: Rainy Day — Pump Override
+  ALERT : LOW_LIGHT
+  ────────────────────────────────────────
+
+[2026-06-14 17:48:55] Reading #0070 | Scenario: Rainy Day — Pump Override
+  ALERT : LOW_LIGHT
+  ────────────────────────────────────────
+
+[2026-06-14 17:48:57] Reading #0071 | Scenario: Rainy Day — Pump Override
+  ALERT : LOW_LIGHT
+  ────────────────────────────────────────
+
+[2026-06-14 17:48:59] Reading #0072 | Scenario: Rainy Day — Pump Override
+  ALERT : LOW_LIGHT
+  ────────────────────────────────────────
+
+[2026-06-14 17:49:01] Reading #0073 | Scenario: Low Water Tank
+  ALERT : LOW_WATER_TANK
+  ALERT : DRY_SOIL
+  ────────────────────────────────────────
+
+[2026-06-14 17:49:03] Reading #0074 | Scenario: Low Water Tank
+  ALERT : LOW_WATER_TANK
+  ALERT : DRY_SOIL
+  ────────────────────────────────────────
+
+[2026-06-14 17:49:05] Reading #0075 | Scenario: Low Water Tank
+  ALERT : LOW_WATER_TANK
+  ALERT : DRY_SOIL
+  ────────────────────────────────────────
+
+[2026-06-14 17:49:07] Reading #0076 | Scenario: Low Water Tank
+  ALERT : LOW_WATER_TANK
+  ALERT : DRY_SOIL
+  ────────────────────────────────────────
+
+[2026-06-14 17:49:09] Reading #0077 | Scenario: Low Water Tank
+  ALERT : LOW_WATER_TANK
+  ALERT : DRY_SOIL
+  ────────────────────────────────────────
+
+[2026-06-14 17:49:11] Reading #0078 | Scenario: Low Water Tank
+  ALERT : LOW_WATER_TANK
+  ALERT : DRY_SOIL
+  ────────────────────────────────────────
+
+[2026-06-14 17:49:13] Reading #0079 | Scenario: Low Water Tank
+  ALERT : LOW_WATER_TANK
+  ALERT : DRY_SOIL
+  ────────────────────────────────────────
+
+[2026-06-14 17:49:15] Reading #0080 | Scenario: Low Water Tank
+  ALERT : LOW_WATER_TANK
+  ALERT : DRY_SOIL
+  ────────────────────────────────────────
+
+[2026-06-14 17:49:17] Reading #0081 | Scenario: Night / Low Light
+  ALERT : LOW_LIGHT
+  ────────────────────────────────────────
+
+[2026-06-14 17:49:19] Reading #0082 | Scenario: Night / Low Light
+  ALERT : LOW_LIGHT
+  ────────────────────────────────────────
+
+[2026-06-14 17:49:21] Reading #0083 | Scenario: Night / Low Light
+  ALERT : LOW_LIGHT
+  ────────────────────────────────────────
+
+[2026-06-14 17:49:23] Reading #0084 | Scenario: Night / Low Light
+  ALERT : LOW_LIGHT
+  ────────────────────────────────────────
+
+[2026-06-14 17:49:25] Reading #0085 | Scenario: Night / Low Light
+  ALERT : LOW_LIGHT
+  ────────────────────────────────────────
+
+[2026-06-14 17:49:27] Reading #0086 | Scenario: Night / Low Light
+  ALERT : LOW_LIGHT
+  ────────────────────────────────────────
+
+[2026-06-14 17:49:29] Reading #0087 | Scenario: Night / Low Light
+  ALERT : LOW_LIGHT
+  ────────────────────────────────────────
+
+[2026-06-14 17:49:31] Reading #0088 | Scenario: Night / Low Light
+  ALERT : LOW_LIGHT
+  ────────────────────────────────────────
+
+[2026-06-14 17:49:49] Reading #0097 | Scenario: Dry Soil — Pump Needed
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 17:49:51] Reading #0098 | Scenario: Dry Soil — Pump Needed
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 17:49:53] Reading #0099 | Scenario: Dry Soil — Pump Needed
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 17:49:55] Reading #0100 | Scenario: Dry Soil — Pump Needed
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 17:49:57] Reading #0101 | Scenario: Dry Soil — Pump Needed
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 17:49:59] Reading #0102 | Scenario: Dry Soil — Pump Needed
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 17:50:01] Reading #0103 | Scenario: Dry Soil — Pump Needed
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 17:50:03] Reading #0104 | Scenario: Dry Soil — Pump Needed
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 17:50:05] Reading #0105 | Scenario: High Temperature Alert
+  ALERT : HIGH_TEMPERATURE
+  ALERT : LOW_HUMIDITY
+  ────────────────────────────────────────
+
+[2026-06-14 17:50:07] Reading #0106 | Scenario: High Temperature Alert
+  ALERT : HIGH_TEMPERATURE
+  ALERT : LOW_HUMIDITY
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 17:50:09] Reading #0107 | Scenario: High Temperature Alert
+  ALERT : HIGH_TEMPERATURE
+  ALERT : LOW_HUMIDITY
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 17:50:11] Reading #0108 | Scenario: High Temperature Alert
+  ALERT : HIGH_TEMPERATURE
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 17:50:13] Reading #0109 | Scenario: High Temperature Alert
+  ALERT : HIGH_TEMPERATURE
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 17:50:15] Reading #0110 | Scenario: High Temperature Alert
+  ALERT : HIGH_TEMPERATURE
+  ALERT : LOW_HUMIDITY
+  ────────────────────────────────────────
+
+[2026-06-14 17:50:17] Reading #0111 | Scenario: High Temperature Alert
+  ALERT : HIGH_TEMPERATURE
+  ────────────────────────────────────────
+
+[2026-06-14 17:50:19] Reading #0112 | Scenario: High Temperature Alert
+  ALERT : HIGH_TEMPERATURE
+  ALERT : LOW_HUMIDITY
+  ────────────────────────────────────────
+
+[2026-06-14 17:50:27] Reading #0116 | Scenario: Rainy Day — Pump Override
+  ALERT : LOW_LIGHT
+  ────────────────────────────────────────
+
+[2026-06-14 17:50:29] Reading #0117 | Scenario: Rainy Day — Pump Override
+  ALERT : LOW_LIGHT
+  ────────────────────────────────────────
+
+[2026-06-14 17:50:31] Reading #0118 | Scenario: Rainy Day — Pump Override
+  ALERT : LOW_LIGHT
+  ────────────────────────────────────────
+
+[2026-06-14 17:50:33] Reading #0119 | Scenario: Rainy Day — Pump Override
+  ALERT : LOW_LIGHT
+  ────────────────────────────────────────
+
+[2026-06-14 17:50:35] Reading #0120 | Scenario: Rainy Day — Pump Override
+  ALERT : LOW_LIGHT
+  ────────────────────────────────────────
+
+[2026-06-14 17:50:37] Reading #0121 | Scenario: Low Water Tank
+  ALERT : LOW_WATER_TANK
+  ALERT : DRY_SOIL
+  ────────────────────────────────────────
+
+[2026-06-14 17:50:39] Reading #0122 | Scenario: Low Water Tank
+  ALERT : LOW_WATER_TANK
+  ALERT : DRY_SOIL
+  ────────────────────────────────────────
+
+[2026-06-14 17:50:41] Reading #0123 | Scenario: Low Water Tank
+  ALERT : LOW_WATER_TANK
+  ALERT : DRY_SOIL
+  ────────────────────────────────────────
+
+[2026-06-14 17:50:43] Reading #0124 | Scenario: Low Water Tank
+  ALERT : LOW_WATER_TANK
+  ALERT : DRY_SOIL
+  ────────────────────────────────────────
+
+[2026-06-14 17:50:45] Reading #0125 | Scenario: Low Water Tank
+  ALERT : LOW_WATER_TANK
+  ALERT : DRY_SOIL
+  ────────────────────────────────────────
+
+[2026-06-14 17:50:47] Reading #0126 | Scenario: Low Water Tank
+  ALERT : LOW_WATER_TANK
+  ALERT : DRY_SOIL
+  ────────────────────────────────────────
+
+[2026-06-14 17:50:49] Reading #0127 | Scenario: Low Water Tank
+  ALERT : LOW_WATER_TANK
+  ALERT : DRY_SOIL
+  ────────────────────────────────────────
+
+[2026-06-14 17:50:51] Reading #0128 | Scenario: Low Water Tank
+  ALERT : LOW_WATER_TANK
+  ALERT : DRY_SOIL
+  ────────────────────────────────────────
+
+[2026-06-14 17:50:53] Reading #0129 | Scenario: Night / Low Light
+  ALERT : LOW_LIGHT
+  ────────────────────────────────────────
+
+[2026-06-14 17:50:55] Reading #0130 | Scenario: Night / Low Light
+  ALERT : LOW_LIGHT
+  ────────────────────────────────────────
+
+[2026-06-14 17:50:57] Reading #0131 | Scenario: Night / Low Light
+  ALERT : LOW_LIGHT
+  ────────────────────────────────────────
+
+[2026-06-14 17:50:59] Reading #0132 | Scenario: Night / Low Light
+  ALERT : LOW_LIGHT
+  ────────────────────────────────────────
+
+[2026-06-14 17:51:01] Reading #0133 | Scenario: Night / Low Light
+  ALERT : LOW_LIGHT
+  ────────────────────────────────────────
+
+[2026-06-14 17:51:03] Reading #0134 | Scenario: Night / Low Light
+  ALERT : LOW_LIGHT
+  ────────────────────────────────────────
+
+[2026-06-14 17:51:05] Reading #0135 | Scenario: Night / Low Light
+  ALERT : LOW_LIGHT
+  ────────────────────────────────────────
+
+[2026-06-14 17:51:07] Reading #0136 | Scenario: Night / Low Light
+  ALERT : LOW_LIGHT
+  ────────────────────────────────────────
+
+[2026-06-14 17:51:25] Reading #0145 | Scenario: Dry Soil — Pump Needed
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 17:51:27] Reading #0146 | Scenario: Dry Soil — Pump Needed
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 17:51:29] Reading #0147 | Scenario: Dry Soil — Pump Needed
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 17:51:31] Reading #0148 | Scenario: Dry Soil — Pump Needed
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 17:51:33] Reading #0149 | Scenario: Dry Soil — Pump Needed
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 17:51:35] Reading #0150 | Scenario: Dry Soil — Pump Needed
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 17:51:37] Reading #0151 | Scenario: Dry Soil — Pump Needed
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 17:51:39] Reading #0152 | Scenario: Dry Soil — Pump Needed
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 17:51:41] Reading #0153 | Scenario: High Temperature Alert
+  ALERT : HIGH_TEMPERATURE
+  ALERT : LOW_HUMIDITY
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 17:51:43] Reading #0154 | Scenario: High Temperature Alert
+  ALERT : HIGH_TEMPERATURE
+  ────────────────────────────────────────
+
+[2026-06-14 17:51:45] Reading #0155 | Scenario: High Temperature Alert
+  ALERT : HIGH_TEMPERATURE
+  ────────────────────────────────────────
+
+[2026-06-14 17:51:47] Reading #0156 | Scenario: High Temperature Alert
+  ALERT : HIGH_TEMPERATURE
+  ────────────────────────────────────────
+
+[2026-06-14 17:51:49] Reading #0157 | Scenario: High Temperature Alert
+  ALERT : HIGH_TEMPERATURE
+  ALERT : LOW_HUMIDITY
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 17:51:51] Reading #0158 | Scenario: High Temperature Alert
+  ALERT : HIGH_TEMPERATURE
+  ALERT : LOW_HUMIDITY
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 17:51:53] Reading #0159 | Scenario: High Temperature Alert
+  ALERT : HIGH_TEMPERATURE
+  ALERT : LOW_HUMIDITY
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 17:51:55] Reading #0160 | Scenario: High Temperature Alert
+  ALERT : HIGH_TEMPERATURE
+  ALERT : LOW_HUMIDITY
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 17:51:57] Reading #0161 | Scenario: Rainy Day — Pump Override
+  ALERT : LOW_LIGHT
+  ────────────────────────────────────────
+
+[2026-06-14 17:52:03] Reading #0164 | Scenario: Rainy Day — Pump Override
+  ALERT : LOW_LIGHT
+  ────────────────────────────────────────
+
+[2026-06-14 17:52:05] Reading #0165 | Scenario: Rainy Day — Pump Override
+  ALERT : LOW_LIGHT
+  ────────────────────────────────────────
+
+[2026-06-14 17:52:13] Reading #0169 | Scenario: Low Water Tank
+  ALERT : LOW_WATER_TANK
+  ALERT : DRY_SOIL
+  ────────────────────────────────────────
+
+[2026-06-14 17:52:15] Reading #0170 | Scenario: Low Water Tank
+  ALERT : LOW_WATER_TANK
+  ALERT : DRY_SOIL
+  ────────────────────────────────────────
+
+[2026-06-14 17:52:17] Reading #0171 | Scenario: Low Water Tank
+  ALERT : LOW_WATER_TANK
+  ALERT : DRY_SOIL
+  ────────────────────────────────────────
+
+[2026-06-14 17:52:19] Reading #0172 | Scenario: Low Water Tank
+  ALERT : LOW_WATER_TANK
+  ALERT : DRY_SOIL
+  ────────────────────────────────────────
+
+[2026-06-14 17:52:21] Reading #0173 | Scenario: Low Water Tank
+  ALERT : LOW_WATER_TANK
+  ALERT : DRY_SOIL
+  ────────────────────────────────────────
+
+[2026-06-14 17:52:23] Reading #0174 | Scenario: Low Water Tank
+  ALERT : LOW_WATER_TANK
+  ALERT : DRY_SOIL
+  ────────────────────────────────────────
+
+[2026-06-14 17:52:25] Reading #0175 | Scenario: Low Water Tank
+  ALERT : LOW_WATER_TANK
+  ALERT : DRY_SOIL
+  ────────────────────────────────────────
+
+[2026-06-14 17:52:27] Reading #0176 | Scenario: Low Water Tank
+  ALERT : LOW_WATER_TANK
+  ALERT : DRY_SOIL
+  ────────────────────────────────────────
+
+[2026-06-14 17:52:29] Reading #0177 | Scenario: Night / Low Light
+  ALERT : LOW_LIGHT
+  ────────────────────────────────────────
+
+[2026-06-14 17:52:31] Reading #0178 | Scenario: Night / Low Light
+  ALERT : LOW_LIGHT
+  ────────────────────────────────────────
+
+[2026-06-14 17:52:33] Reading #0179 | Scenario: Night / Low Light
+  ALERT : LOW_LIGHT
+  ────────────────────────────────────────
+
+[2026-06-14 17:52:35] Reading #0180 | Scenario: Night / Low Light
+  ALERT : LOW_LIGHT
+  ────────────────────────────────────────
+
+[2026-06-14 17:52:37] Reading #0181 | Scenario: Night / Low Light
+  ALERT : LOW_LIGHT
+  ────────────────────────────────────────
+
+[2026-06-14 17:52:39] Reading #0182 | Scenario: Night / Low Light
+  ALERT : LOW_LIGHT
+  ────────────────────────────────────────
+
+[2026-06-14 17:52:41] Reading #0183 | Scenario: Night / Low Light
+  ALERT : LOW_LIGHT
+  ────────────────────────────────────────
+
+[2026-06-14 17:52:43] Reading #0184 | Scenario: Night / Low Light
+  ALERT : LOW_LIGHT
+  ────────────────────────────────────────
+
+[2026-06-14 17:53:01] Reading #0193 | Scenario: Dry Soil — Pump Needed
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 17:53:03] Reading #0194 | Scenario: Dry Soil — Pump Needed
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 17:53:05] Reading #0195 | Scenario: Dry Soil — Pump Needed
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 17:53:07] Reading #0196 | Scenario: Dry Soil — Pump Needed
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 17:53:09] Reading #0197 | Scenario: Dry Soil — Pump Needed
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 17:53:11] Reading #0198 | Scenario: Dry Soil — Pump Needed
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 17:53:13] Reading #0199 | Scenario: Dry Soil — Pump Needed
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 17:53:15] Reading #0200 | Scenario: Dry Soil — Pump Needed
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 17:53:17] Reading #0201 | Scenario: High Temperature Alert
+  ALERT : HIGH_TEMPERATURE
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 17:53:19] Reading #0202 | Scenario: High Temperature Alert
+  ALERT : HIGH_TEMPERATURE
+  ALERT : LOW_HUMIDITY
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 17:53:21] Reading #0203 | Scenario: High Temperature Alert
+  ALERT : HIGH_TEMPERATURE
+  ALERT : LOW_HUMIDITY
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 17:53:23] Reading #0204 | Scenario: High Temperature Alert
+  ALERT : HIGH_TEMPERATURE
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 17:53:25] Reading #0205 | Scenario: High Temperature Alert
+  ALERT : HIGH_TEMPERATURE
+  ALERT : LOW_HUMIDITY
+  ────────────────────────────────────────
+
+[2026-06-14 17:53:27] Reading #0206 | Scenario: High Temperature Alert
+  ALERT : HIGH_TEMPERATURE
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 17:53:29] Reading #0207 | Scenario: High Temperature Alert
+  ALERT : HIGH_TEMPERATURE
+  ALERT : LOW_HUMIDITY
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 17:53:31] Reading #0208 | Scenario: High Temperature Alert
+  ALERT : HIGH_TEMPERATURE
+  ALERT : LOW_HUMIDITY
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 17:53:35] Reading #0210 | Scenario: Rainy Day — Pump Override
+  ALERT : LOW_LIGHT
+  ────────────────────────────────────────
+
+[2026-06-14 17:53:43] Reading #0214 | Scenario: Rainy Day — Pump Override
+  ALERT : LOW_LIGHT
+  ────────────────────────────────────────
+
+[2026-06-14 17:53:45] Reading #0215 | Scenario: Rainy Day — Pump Override
+  ALERT : LOW_LIGHT
+  ────────────────────────────────────────
+
+[2026-06-14 17:53:47] Reading #0216 | Scenario: Rainy Day — Pump Override
+  ALERT : LOW_LIGHT
+  ────────────────────────────────────────
+
+[2026-06-14 17:53:49] Reading #0217 | Scenario: Low Water Tank
+  ALERT : LOW_WATER_TANK
+  ALERT : DRY_SOIL
+  ────────────────────────────────────────
+
+[2026-06-14 17:53:51] Reading #0218 | Scenario: Low Water Tank
+  ALERT : LOW_WATER_TANK
+  ALERT : DRY_SOIL
+  ────────────────────────────────────────
+
+[2026-06-14 17:53:53] Reading #0219 | Scenario: Low Water Tank
+  ALERT : LOW_WATER_TANK
+  ALERT : DRY_SOIL
+  ────────────────────────────────────────
+
+[2026-06-14 17:53:55] Reading #0220 | Scenario: Low Water Tank
+  ALERT : LOW_WATER_TANK
+  ALERT : DRY_SOIL
+  ────────────────────────────────────────
+
+[2026-06-14 17:53:57] Reading #0221 | Scenario: Low Water Tank
+  ALERT : LOW_WATER_TANK
+  ALERT : DRY_SOIL
+  ────────────────────────────────────────
+
+[2026-06-14 17:53:59] Reading #0222 | Scenario: Low Water Tank
+  ALERT : LOW_WATER_TANK
+  ALERT : DRY_SOIL
+  ────────────────────────────────────────
+
+[2026-06-14 17:54:01] Reading #0223 | Scenario: Low Water Tank
+  ALERT : LOW_WATER_TANK
+  ALERT : DRY_SOIL
+  ────────────────────────────────────────
+
+[2026-06-14 17:54:03] Reading #0224 | Scenario: Low Water Tank
+  ALERT : LOW_WATER_TANK
+  ALERT : DRY_SOIL
+  ────────────────────────────────────────
+
+[2026-06-14 17:54:05] Reading #0225 | Scenario: Night / Low Light
+  ALERT : LOW_LIGHT
+  ────────────────────────────────────────
+
+[2026-06-14 17:54:07] Reading #0226 | Scenario: Night / Low Light
+  ALERT : LOW_LIGHT
+  ────────────────────────────────────────
+
+[2026-06-14 17:54:09] Reading #0227 | Scenario: Night / Low Light
+  ALERT : LOW_LIGHT
+  ────────────────────────────────────────
+
+[2026-06-14 17:54:11] Reading #0228 | Scenario: Night / Low Light
+  ALERT : LOW_LIGHT
+  ────────────────────────────────────────
+
+[2026-06-14 17:54:13] Reading #0229 | Scenario: Night / Low Light
+  ALERT : LOW_LIGHT
+  ────────────────────────────────────────
+
+[2026-06-14 17:54:15] Reading #0230 | Scenario: Night / Low Light
+  ALERT : LOW_LIGHT
+  ────────────────────────────────────────
+
+[2026-06-14 17:54:17] Reading #0231 | Scenario: Night / Low Light
+  ALERT : LOW_LIGHT
+  ────────────────────────────────────────
+
+[2026-06-14 17:54:19] Reading #0232 | Scenario: Night / Low Light
+  ALERT : LOW_LIGHT
+  ────────────────────────────────────────
+
+[2026-06-14 17:54:37] Reading #0241 | Scenario: Dry Soil — Pump Needed
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 17:54:39] Reading #0242 | Scenario: Dry Soil — Pump Needed
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 17:54:41] Reading #0243 | Scenario: Dry Soil — Pump Needed
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 17:54:43] Reading #0244 | Scenario: Dry Soil — Pump Needed
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 17:54:45] Reading #0245 | Scenario: Dry Soil — Pump Needed
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 17:54:47] Reading #0246 | Scenario: Dry Soil — Pump Needed
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 17:54:49] Reading #0247 | Scenario: Dry Soil — Pump Needed
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 17:54:51] Reading #0248 | Scenario: Dry Soil — Pump Needed
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 17:54:53] Reading #0249 | Scenario: High Temperature Alert
+  ALERT : HIGH_TEMPERATURE
+  ALERT : LOW_HUMIDITY
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 17:54:55] Reading #0250 | Scenario: High Temperature Alert
+  ALERT : HIGH_TEMPERATURE
+  ALERT : LOW_HUMIDITY
+  ────────────────────────────────────────
+
+[2026-06-14 17:54:57] Reading #0251 | Scenario: High Temperature Alert
+  ALERT : HIGH_TEMPERATURE
+  ALERT : LOW_HUMIDITY
+  ────────────────────────────────────────
+
+[2026-06-14 17:54:59] Reading #0252 | Scenario: High Temperature Alert
+  ALERT : HIGH_TEMPERATURE
+  ────────────────────────────────────────
+
+[2026-06-14 17:55:01] Reading #0253 | Scenario: High Temperature Alert
+  ALERT : HIGH_TEMPERATURE
+  ALERT : LOW_HUMIDITY
+  ────────────────────────────────────────
+
+[2026-06-14 17:55:03] Reading #0254 | Scenario: High Temperature Alert
+  ALERT : HIGH_TEMPERATURE
+  ALERT : LOW_HUMIDITY
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 17:55:05] Reading #0255 | Scenario: High Temperature Alert
+  ALERT : HIGH_TEMPERATURE
+  ALERT : LOW_HUMIDITY
+  ────────────────────────────────────────
+
+[2026-06-14 17:55:07] Reading #0256 | Scenario: High Temperature Alert
+  ALERT : HIGH_TEMPERATURE
+  ALERT : LOW_HUMIDITY
+  ────────────────────────────────────────
+
+[2026-06-14 17:55:11] Reading #0258 | Scenario: Rainy Day — Pump Override
+  ALERT : LOW_LIGHT
+  ────────────────────────────────────────
+
+[2026-06-14 17:55:19] Reading #0262 | Scenario: Rainy Day — Pump Override
+  ALERT : LOW_LIGHT
+  ────────────────────────────────────────
+
+[2026-06-14 17:55:21] Reading #0263 | Scenario: Rainy Day — Pump Override
+  ALERT : LOW_LIGHT
+  ────────────────────────────────────────
+
+[2026-06-14 17:55:25] Reading #0265 | Scenario: Low Water Tank
+  ALERT : LOW_WATER_TANK
+  ALERT : DRY_SOIL
+  ────────────────────────────────────────
+
+[2026-06-14 17:55:27] Reading #0266 | Scenario: Low Water Tank
+  ALERT : LOW_WATER_TANK
+  ALERT : DRY_SOIL
+  ────────────────────────────────────────
+
+[2026-06-14 17:55:29] Reading #0267 | Scenario: Low Water Tank
+  ALERT : LOW_WATER_TANK
+  ALERT : DRY_SOIL
+  ────────────────────────────────────────
+
+[2026-06-14 17:55:31] Reading #0268 | Scenario: Low Water Tank
+  ALERT : LOW_WATER_TANK
+  ALERT : DRY_SOIL
+  ────────────────────────────────────────
+
+[2026-06-14 17:55:33] Reading #0269 | Scenario: Low Water Tank
+  ALERT : LOW_WATER_TANK
+  ALERT : DRY_SOIL
+  ────────────────────────────────────────
+
+[2026-06-14 17:55:35] Reading #0270 | Scenario: Low Water Tank
+  ALERT : LOW_WATER_TANK
+  ALERT : DRY_SOIL
+  ────────────────────────────────────────
+
+[2026-06-14 17:55:37] Reading #0271 | Scenario: Low Water Tank
+  ALERT : LOW_WATER_TANK
+  ALERT : DRY_SOIL
+  ────────────────────────────────────────
+
+[2026-06-14 17:55:39] Reading #0272 | Scenario: Low Water Tank
+  ALERT : LOW_WATER_TANK
+  ALERT : DRY_SOIL
+  ────────────────────────────────────────
+
+[2026-06-14 17:55:41] Reading #0273 | Scenario: Night / Low Light
+  ALERT : LOW_LIGHT
+  ────────────────────────────────────────
+
+[2026-06-14 17:55:43] Reading #0274 | Scenario: Night / Low Light
+  ALERT : LOW_LIGHT
+  ────────────────────────────────────────
+
+[2026-06-14 17:55:45] Reading #0275 | Scenario: Night / Low Light
+  ALERT : LOW_LIGHT
+  ────────────────────────────────────────
+
+[2026-06-14 17:55:47] Reading #0276 | Scenario: Night / Low Light
+  ALERT : LOW_LIGHT
+  ────────────────────────────────────────
+
+[2026-06-14 17:55:49] Reading #0277 | Scenario: Night / Low Light
+  ALERT : LOW_LIGHT
+  ────────────────────────────────────────
+
+[2026-06-14 17:55:51] Reading #0278 | Scenario: Night / Low Light
+  ALERT : LOW_LIGHT
+  ────────────────────────────────────────
+
+[2026-06-14 17:55:53] Reading #0279 | Scenario: Night / Low Light
+  ALERT : LOW_LIGHT
+  ────────────────────────────────────────
+
+[2026-06-14 17:55:55] Reading #0280 | Scenario: Night / Low Light
+  ALERT : LOW_LIGHT
+  ────────────────────────────────────────
+
+[2026-06-14 17:56:13] Reading #0289 | Scenario: Dry Soil — Pump Needed
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 17:56:15] Reading #0290 | Scenario: Dry Soil — Pump Needed
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 17:56:17] Reading #0291 | Scenario: Dry Soil — Pump Needed
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 17:56:19] Reading #0292 | Scenario: Dry Soil — Pump Needed
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 17:56:21] Reading #0293 | Scenario: Dry Soil — Pump Needed
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 17:56:23] Reading #0294 | Scenario: Dry Soil — Pump Needed
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 17:56:25] Reading #0295 | Scenario: Dry Soil — Pump Needed
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 17:56:27] Reading #0296 | Scenario: Dry Soil — Pump Needed
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 17:56:29] Reading #0297 | Scenario: High Temperature Alert
+  ALERT : HIGH_TEMPERATURE
+  ALERT : LOW_HUMIDITY
+  ────────────────────────────────────────
+
+[2026-06-14 17:56:31] Reading #0298 | Scenario: High Temperature Alert
+  ALERT : HIGH_TEMPERATURE
+  ALERT : LOW_HUMIDITY
+  ────────────────────────────────────────
+
+[2026-06-14 17:56:33] Reading #0299 | Scenario: High Temperature Alert
+  ALERT : HIGH_TEMPERATURE
+  ────────────────────────────────────────
+
+[2026-06-14 17:56:35] Reading #0300 | Scenario: High Temperature Alert
+  ALERT : HIGH_TEMPERATURE
+  ────────────────────────────────────────
+
+[2026-06-14 17:56:37] Reading #0301 | Scenario: High Temperature Alert
+  ALERT : HIGH_TEMPERATURE
+  ────────────────────────────────────────
+
+[2026-06-14 17:56:39] Reading #0302 | Scenario: High Temperature Alert
+  ALERT : HIGH_TEMPERATURE
+  ALERT : LOW_HUMIDITY
+  ────────────────────────────────────────
+
+[2026-06-14 17:56:41] Reading #0303 | Scenario: High Temperature Alert
+  ALERT : HIGH_TEMPERATURE
+  ALERT : LOW_HUMIDITY
+  ALERT : DRY_SOIL
+  PUMP  : ON — Soil is DRY — pump activated
+  ────────────────────────────────────────
+
+[2026-06-14 17:56:43] Reading #0304 | Scenario: High Temperature Alert
+  ALERT : HIGH_TEMPERATURE
+  ────────────────────────────────────────
+
+[2026-06-14 17:56:47] Reading #0306 | Scenario: Rainy Day — Pump Override
+  ALERT : LOW_LIGHT
+  ────────────────────────────────────────
+
+[2026-06-14 17:56:49] Reading #0307 | Scenario: Rainy Day — Pump Override
+  ALERT : LOW_LIGHT
+  ────────────────────────────────────────
+
+[2026-06-14 17:57:01] Reading #0313 | Scenario: Low Water Tank
+  ALERT : LOW_WATER_TANK
+  ALERT : DRY_SOIL
+  ────────────────────────────────────────
+
+[2026-06-14 17:57:03] Reading #0314 | Scenario: Low Water Tank
+  ALERT : LOW_WATER_TANK
+  ALERT : DRY_SOIL
+  ────────────────────────────────────────
+
+[2026-06-14 17:57:05] Reading #0315 | Scenario: Low Water Tank
+  ALERT : LOW_WATER_TANK
+  ALERT : DRY_SOIL
+  ────────────────────────────────────────
+
+[2026-06-14 17:57:07] Reading #0316 | Scenario: Low Water Tank
+  ALERT : LOW_WATER_TANK
+  ALERT : DRY_SOIL
+  ────────────────────────────────────────
+
+[2026-06-14 17:57:09] Reading #0317 | Scenario: Low Water Tank
+  ALERT : LOW_WATER_TANK
+  ALERT : DRY_SOIL
+  ────────────────────────────────────────
+
+[2026-06-14 17:57:11] Reading #0318 | Scenario: Low Water Tank
+  ALERT : LOW_WATER_TANK
+  ALERT : DRY_SOIL
+  ────────────────────────────────────────
+
+[2026-06-14 17:57:13] Reading #0319 | Scenario: Low Water Tank
+  ALERT : LOW_WATER_TANK
+  ALERT : DRY_SOIL
+  ────────────────────────────────────────
+
+[2026-06-14 17:57:15] Reading #0320 | Scenario: Low Water Tank
+  ALERT : LOW_WATER_TANK
+  ALERT : DRY_SOIL
+  ────────────────────────────────────────
+
+[2026-06-14 17:57:17] Reading #0321 | Scenario: Night / Low Light
+  ALERT : LOW_LIGHT
+  ────────────────────────────────────────
+
+[2026-06-14 17:57:19] Reading #0322 | Scenario: Night / Low Light
+  ALERT : LOW_LIGHT
+  ────────────────────────────────────────
